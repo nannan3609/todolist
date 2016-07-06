@@ -1,0 +1,24 @@
+*{
+	padding:0;
+	margin:0;
+}
+.top{
+	background-color:cadetblue;
+	height:45px;
+	margin-top:-20px;
+}
+.title{
+     text-align:center;
+}
+#back{
+	float:left;
+	height:45px;
+	width:60px;
+	margin-left: 5px;
+}
+#save{
+	float:right;
+	height:45px;
+	width:60px;
+	margin-right:5px;
+}

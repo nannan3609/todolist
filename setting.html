@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset="utf-8">
+	<title>任务设置</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/setting.css"/>
+</head>
+<body>
+       <div class="top">
+           <input class="btn btn-default" type="button" value="返回" id="back">
+           <input class="btn btn-default" type="button" value="保存" id="save">
+           <h1 class="title">新建任务</h1>
+       </div>
+       <div class="contenter">
+           <form>
+               <div class="form-group">
+                  <label for="title">任务标题：</label>
+                   <input class="form-control" type="text" id="title"/>
+               </div>
+               <div class="form-group">
+                   <textarea class="form-control" id="content" placeholder="请输入任务详细内容" rows="15"></textarea>
+               </div>
+           </form>
+       </div>
+       <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/setting.js"></script>
+</body>
+</html>
